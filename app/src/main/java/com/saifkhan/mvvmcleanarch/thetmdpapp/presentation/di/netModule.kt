@@ -2,7 +2,6 @@ package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di
 
 import androidx.databinding.library.BuildConfig
 import com.google.gson.Gson
-import com.saifkhan.mvvmcleanarch.AppConstants
 import com.saifkhan.mvvmcleanarch.thetmdpapp.data.api.TMDBService
 import dagger.Module
 import dagger.Provides

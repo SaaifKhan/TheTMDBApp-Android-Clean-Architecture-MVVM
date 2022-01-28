@@ -15,56 +15,61 @@ import com.saifkhan.mvvmcleanarch.thetmdpapp.data.repository.tvshow.datasouce.Tv
 import com.saifkhan.mvvmcleanarch.thetmdpapp.domain.repository.ArtistRepository
 import com.saifkhan.mvvmcleanarch.thetmdpapp.domain.repository.MovieRepository
 import com.saifkhan.mvvmcleanarch.thetmdpapp.domain.repository.TvShowRepository
+import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
+@Module
+class RepositoryModule {
 
-@Provides
-@Singleton
-fun provideMovieRepository(
-    movieRemoteDatasource: MovieRemoteDatasource,
-    movieLocalDataSource: MovieLocalDataSource,
-    movieCacheDataSource: MovieCacheDataSource
-): MovieRepository {
+    @Provides
+    @Singleton
+    fun provideMovieRepository(
+        movieRemoteDatasource: MovieRemoteDatasource,
+        movieLocalDataSource: MovieLocalDataSource,
+        movieCacheDataSource: MovieCacheDataSource
+    ): MovieRepository {
 
-    return MovieRepositoryImpl(
-        movieRemoteDatasource,
-        movieLocalDataSource,
-        movieCacheDataSource
-    )
-
-
-}
-
-@Provides
-@Singleton
-fun provideTvShowRepository(
-    tvShowRemoteDatasource: TvShowRemoteDatasource,
-    tvShowLocalDataSource: TvShowLocalDataSource,
-    tvShowCacheDataSource: TvShowCacheDataSource
-): TvShowRepository {
-
-    return TvShowRepositoryImpl(
-        tvShowRemoteDatasource,
-        tvShowLocalDataSource,
-        tvShowCacheDataSource
-    )
+        return MovieRepositoryImpl(
+            movieRemoteDatasource,
+            movieLocalDataSource,
+            movieCacheDataSource
+        )
 
 
-}
+    }
 
-@Provides
-@Singleton
-fun provideArtistRepository(
-    artistRemoteDatasource: ArtistRemoteDatasource,
-    artistLocalDataSource: ArtistLocalDataSource,
-    artistCacheDataSource: ArtistCacheDataSource
-): ArtistRepository {
+    @Provides
+    @Singleton
+    fun provideTvShowRepository(
+        tvShowRemoteDatasource: TvShowRemoteDatasource,
+        tvShowLocalDataSource: TvShowLocalDataSource,
+        tvShowCacheDataSource: TvShowCacheDataSource
+    ): TvShowRepository {
 
-    return ArtistRepositoryImpl(
-        artistRemoteDatasource,
-        artistLocalDataSource,
-        artistCacheDataSource
-    )
+        return TvShowRepositoryImpl(
+            tvShowRemoteDatasource,
+            tvShowLocalDataSource,
+            tvShowCacheDataSource
+        )
 
+
+    }
+
+    @Provides
+    @Singleton
+    fun provideArtistRepository(
+        artistRemoteDatasource: ArtistRemoteDatasource,
+        artistLocalDataSource: ArtistLocalDataSource,
+        artistCacheDataSource: ArtistCacheDataSource
+    ): ArtistRepository {
+
+        return ArtistRepositoryImpl(
+            artistRemoteDatasource,
+            artistLocalDataSource,
+            artistCacheDataSource
+        )
+
+
+    }
 
 }
