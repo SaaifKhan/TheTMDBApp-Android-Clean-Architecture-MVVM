@@ -2,7 +2,12 @@
 # Overview
 This Repository contains a Detailed Sample app that Implements MVVM clean Architecture in Kotlin using Retorfit2, Dagger 2, Coroutines, AndroidX, Android Jetpack, DataBinding and Modern Arch
 
-## Implemented by Clean Architecture
+## Why Clean Arch? <br />
+MVVM separates your view (i.e. Activitys and Fragments) from your business logic. MVVM is enough for small projects, but when your codebase becomes huge, your ViewModels start bloating. Separating responsibilities becomes hard.<br />
+MVVM with Clean Architecture is pretty good in such cases. It goes one step further in separating the responsibilities of your code base. It clearly abstracts the logic of the actions that can be performed in your app.<br />
+Note: You can combine Clean Architecture with the model-view-presenter (MVP) architecture as well. But since Android Architecture Components already provides a <br /> built-in ViewModel class, we are going with MVVM over MVP — no MVVM framework required!
+
+<br /> 
 ⋅⋅* Presentation <br />
 ⋅⋅* Domain <br />
 ⋅⋅* Presentation <br />
@@ -12,30 +17,30 @@ This Repository contains a Detailed Sample app that Implements MVVM clean Archit
 
 ## Communication between layers
 
--UI calls method from ViewModel.
--ViewModel executes Use case.
--Use case combines data from Album and Photo Repositories.
--Each Repository returns data from a Data Source (Cached or Remote).
--Information flows back to the UI where we display the list of posts.
+-UI calls method from ViewModel. <br />
+-ViewModel executes Use case.  <br />
+-Use case combines data from Album and Photo Repositories.  <br />
+-Each Repository returns data from a Data Source (Cached or Remote).  <br />
+-Information flows back to the UI where we display the list of posts.  <br />
 
 ##Scenario
-Used https:https://www.themoviedb.org/ as a public api to generate fake data for testing
+Used https:https://www.themoviedb.org/ as a public api to generate fake data for testing <br /> <br />
 
-###### At Glance
-Created a list of Movies,TvShows and Artist
-In the Item of each , showed  name, Desc, and Images
-Update Each and Offline Support.
-And:
-Supported orientation change
-Supported offline mode
-##Tools Used:
-###### Dagger 2
-###### RoomDB
-###### MVVM
-###### Couroutine
-###### DataBinding
-###### Constraint Layout
-###### Lottie
+###### At Glance <br />
+Created a list of Movies,TvShows and Artist <br />
+In the Item of each , showed  name, Desc, and Images <br />
+Update Each and Offline Support.  <br />
+And: <br />
+Supported orientation change <br />
+Supported offline mode <br />
+##Tools Used: <br />
+###### Dagger 2  <br />
+###### RoomDB <br />
+###### MVVM <br />
+###### Couroutine <br />
+###### DataBinding <br />
+###### Constraint Layout <br />
+###### Lottie <br />
 
 
 
