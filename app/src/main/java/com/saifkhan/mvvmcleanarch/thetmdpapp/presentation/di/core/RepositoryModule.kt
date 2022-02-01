@@ -1,4 +1,4 @@
-package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di
+package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di.core
 
 import com.saifkhan.mvvmcleanarch.thetmdpapp.data.repository.artist.ArtistRepositoryImpl
 import com.saifkhan.mvvmcleanarch.thetmdpapp.data.repository.artist.datasource.ArtistCacheDataSource

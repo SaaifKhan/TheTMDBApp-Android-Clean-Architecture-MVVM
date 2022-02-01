@@ -1,4 +1,4 @@
-package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di
+package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di.core
 
 import com.saifkhan.mvvmcleanarch.thetmdpapp.data.db.ArtistDao
 import com.saifkhan.mvvmcleanarch.thetmdpapp.data.db.MovieDao

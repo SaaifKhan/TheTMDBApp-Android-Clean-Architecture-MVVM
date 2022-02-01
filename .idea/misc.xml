@@ -7,8 +7,10 @@
         <entry key="app/src/main/res/layout/activity_artist.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1109375" />
-        <entry key="app/src/main/res/layout/activity_movie.xml" value="0.71875" />
+        <entry key="app/src/main/res/layout/activity_movie.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_tv_show.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/update.xml" value="0.24947916666666667" />
       </map>
     </option>
   </component>

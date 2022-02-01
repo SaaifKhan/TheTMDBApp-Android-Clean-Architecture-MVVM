@@ -1,4 +1,4 @@
-package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di
+package com.saifkhan.mvvmcleanarch.thetmdpapp.presentation.di.core
 
 import com.saifkhan.mvvmcleanarch.thetmdpapp.domain.repository.ArtistRepository
 import com.saifkhan.mvvmcleanarch.thetmdpapp.domain.repository.MovieRepository
