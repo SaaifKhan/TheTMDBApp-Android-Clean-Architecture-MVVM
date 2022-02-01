@@ -3,12 +3,12 @@
 This Repository contains a Detailed Sample app that Implements MVVM clean Architecture in Kotlin using Retorfit2, Dagger 2, Coroutines, AndroidX, Android Jetpack, DataBinding and Modern Arch
 
 ## Implemented by Clean Architecture
-⋅⋅* Presentation
-⋅⋅* Domain
-⋅⋅* Presentation
-⋅⋅* Data
-⋅⋅* UseCases
-⋅⋅* Repository Pattern
+⋅⋅* Presentation <br />
+⋅⋅* Domain <br />
+⋅⋅* Presentation <br />
+⋅⋅* Data <br />
+⋅⋅* UseCases <br />
+⋅⋅* Repository Pattern <br />
 
 ## Communication between layers
 
