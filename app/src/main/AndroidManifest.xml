@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.saifkhan.mvvmcleanarch.thetmdpapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".presentation.App"
@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheTMDPApp">
         <activity
+            android:name=".presentation.splashActivity.SplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.HomeActivity"
             android:exported="true">
             <intent-filter>
@@ -21,9 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.tvshow.TvShowActivity"/>
-        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.artist.ArtistActivity"/>
-        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.movie.MovieActivity"/>
+        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.tvshow.TvShowActivity" />
+        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.artist.ArtistActivity" />
+        <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.movie.MovieActivity" />
     </application>
 
 </manifest>

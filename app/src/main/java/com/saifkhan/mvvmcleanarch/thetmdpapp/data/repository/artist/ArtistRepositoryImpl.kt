@@ -47,7 +47,7 @@ class ArtistRepositoryImpl(
         } catch (exception: Exception) {
             Log.i("MyTag", exception.message.toString())
         }
-        if (artistList.size > 0) {
+        if (artistList.isNotEmpty()) {
             return artistList
         } else {
             artistList = getArtistsFromDB()
