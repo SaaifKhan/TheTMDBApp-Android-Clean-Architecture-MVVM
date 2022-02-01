@@ -14,15 +14,17 @@
         android:theme="@style/Theme.TheTMDPApp">
         <activity
             android:name=".presentation.splashActivity.SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.HomeActivity"
+            android:exported="true">
+
         </activity>
         <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.tvshow.TvShowActivity" />
         <activity android:name="com.saifkhan.mvvmcleanarch.tmdbclient_mvvm_cleanarcheitecture.TMDBApp.presentation.ui.artist.ArtistActivity" />
