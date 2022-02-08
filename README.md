@@ -44,12 +44,8 @@ Supported offline mode <br />
 <br />
 
 ##Images
-![alt text](https://github.com/[Saaifkhan]/[TheTMDBApp-Android-Clean-Architecture-MVVM]/blob/[master]/screenshot11.jpg?raw=true)
-
-
-![Alt text](saifkhan-sct@admin-sct:~/Pictures$/home/saifkhan-sct/Pictures/screenshot12.jpg "Optional title")
-
-
+For Images <br/>
+[(https://postimg.cc/gallery/QT1gfyL)]
 
 
 
