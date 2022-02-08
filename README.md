@@ -23,7 +23,7 @@ Note: You can combine Clean Architecture with the model-view-presenter (MVP) arc
 -Each Repository returns data from a Data Source (Cached or Remote).  <br />
 -Information flows back to the UI where we display the list of posts.  <br />
 
-##Scenario
+## Scenario
 Used https:https://www.themoviedb.org/ as a public api to generate fake data for testing <br /> <br />
 
 ###### At Glance <br />
@@ -33,7 +33,7 @@ Update Each and Offline Support.  <br />
 And: <br />
 Supported orientation change <br />
 Supported offline mode <br />
-##Tools Used: <br />
+## Tools Used: <br />
 ###### Dagger 2  <br />
 ###### RoomDB <br />
 ###### MVVM <br />
